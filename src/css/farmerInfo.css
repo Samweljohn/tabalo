@@ -1,0 +1,251 @@
+.farmerInfo{
+    background-color:rgb(210, 205, 205);
+    overflow: auto;
+    padding-top: 33px;
+    gap:19px ;
+    display: grid;
+    grid-template-columns: 1300px;
+    grid-template-rows: 200px auto 500px auto;
+    grid-template-areas: "tiemFilter"
+                          "importantDataForSystemANalize"
+                          "graphs"
+                          "wrappdataTableForFieldInfo";
+}
+.filterHeader{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.stasticValue{
+    display: flex;
+    margin-top: 30px;
+ 
+    margin-left: 4px;
+    font-size: 25px;
+    color: rgb(16, 108, 107);
+}
+.filterDataSecondPotion{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.farmerInfo .graphs{
+    grid-area: graphs;
+    border-radius: 12PX;
+    background-color:white;
+}
+.timeButton{
+    width: 80px;
+    height:30px ;
+    margin-left: 6px;
+    margin-left: 6px;
+    border: none;
+    color: white;
+    background-color: rgb(32, 31, 31);
+    border-radius: 5px;
+    font-size: 21px;
+}
+.farmerInfo .importantDataForSystemANalize{
+    margin-top: 13px;
+    margin-left: 6px;
+    margin-left: 2px;
+    border-radius: 13px;
+    grid-area: importantDataForSystemANalize;
+    /* background-color: white; */
+    /* background-color: rgb(16, 108, 107); */
+    border: 2px solid #cccccc;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+
+}
+.itermInFilter{
+    width: 100px;
+    height: 35px;
+    font-size: 21px;
+
+}
+.selectionperiod{
+    width: 100px;
+    height: 35px;
+    font-size: 21px;
+}
+.searchFieldOfficer{
+    height: 34px;
+    border: 2px solid #cccccc;
+    width: 400px;
+    border-radius: 21px;
+    padding-left: 5px;
+    padding-top: 6px;
+    background-color: white;
+
+}
+.seachActureBar{
+    width: 300px;
+    border:none;
+    outline: none; 
+    height: 29px;
+    font-size: 21px;
+    background-color: transparent;
+    padding-left: 18px;
+   
+}
+.dataTableForFieldInfo{
+    margin-top: 12px;
+    margin-left: 15px;
+    width:850px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #cccccc;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns:280px 280px 280px ;
+    grid-template-rows: auto;
+    grid-template-areas: "fieldOffNameH AmmountOfFarmerH excellOpenerH"
+                         "fieldOffName AmmountOfFarmer  excellOpener";
+}
+.headTableFarmer{
+    margin-top: 34px;
+    background-color: rgb(96, 56, 164);
+    padding-left: 15px;
+    font-size: 18px;
+    height: 36px;
+    padding-top: 9px;
+    color: white;
+}
+.insideTableFarmer{
+    margin-top: 7px;
+    font-size: 18px;
+    height: 32px;
+   margin-bottom: 5px;
+    padding-left: 13px;
+    background-color: rgb(178, 174, 174);
+}
+.tiemFilter{
+    border: 2px solid #cccccc;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+    background-color: rgb(16, 108, 107);
+   color: whitesmoke;
+    padding-left: 5px;
+    padding-top:7px ;
+    margin-top: 33px;
+    border-radius: 9px;
+
+}
+.importantDataForSystemANalize{
+    padding-top: 23px;
+    padding-left: 23px;
+    gap:23px;
+    display: grid;
+    grid-template-columns: 280px 280px 300px 300px;
+    grid-template-rows:230px  230px;
+    grid-template-areas: "totalNumberOfFarmer field_officer field_officer_withHighNoF field_officer_withlowNoF "
+                         "mostUsedChemical leastUsedChemical  leastPlantedPlant mostPlantedPlant";
+}
+.boxForGeneralInfo{
+    
+    box-shadow: 0px 6px 8px rgb(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    color: rgb(87, 81, 81);
+    font-weight: bold;
+    padding-top: 12px;
+    margin-bottom: 15px;
+    padding-left: 12px;
+    border-radius:  12px;;
+}
+.stasticValuelOW{
+    margin-top: 42px;
+    font-size: 22px;
+    color: rgb(16, 108, 107);
+ margin-bottom:12px ;
+}
+
+.officerName{
+    margin-top: 12px;
+    font-weight: bold;
+}
+/* Bellow is code for field officer with farmer more info*/
+.fieldOfficerWithFarmerMoreInfo{
+    background-color:rgb(210, 205, 205);
+    padding-top: 45px;
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 23px;
+    
+
+}
+@media only screen and (max-width: 480px) {
+    .farmerInfo{
+        scroll-behavior: smooth;
+        background-color:whitesmoke;
+        padding-bottom: 13px;
+        padding-top: 33px;
+        overflow: hidden;
+        gap:19px ;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 300px auto 500px auto;
+        grid-template-areas: "tiemFilter"
+                              "importantDataForSystemANalize"
+                              "graphs"
+                              "officer_InfoDiscription";
+    }  
+    .farmerInfo .officer_InfoDiscription{
+        grid-area: officer_InfoDiscription;
+       
+       
+    }
+   
+    .seachActureBar{
+        width: 200px;
+       
+       
+    }
+    .searchFieldOfficer{
+        width: 300px;
+        
+    }
+    .wrappdataTableForFieldInfo{
+        overflow: auto;
+    }
+    .importantDataForSystemANalize{
+    display: grid;
+    margin-right: 9px;
+    background-color: rgb(16, 108, 107);
+    grid-template-columns: 290px;
+    grid-template-rows:230px 230px 230px 230px  230px  230px  230px  230px;
+    grid-template-areas: "totalNumberOfFarmer" 
+                         " field_officer"
+                        "field_officer_withHighNoF"
+                         "field_officer_withlowNoF "
+                         "mostUsedChemical"
+                          "leastUsedChemical "
+                          "leastPlantedPlant "
+                         "mostPlantedPlant";
+
+
+                        }
+    .importantDataForSystemANalize .field_officer{
+        grid-area: field_officer;
+        
+
+    }
+    .importantDataForSystemANaliz .mostUsedChemical{
+        grid-area: mostUsedChemical;
+    }
+    .importantDataForSystemANaliz .leastUsedChemical{
+        grid-area: leastUsedChemical;
+    }
+    .importantDataForSystemANaliz .leastUsedChemical{
+        grid-area: leastUsedChemical;
+    }
+    .tiemFilter{
+  
+       color: rgb(18, 171, 135);
+    
+    }
+    .timeButton{
+        margin-top: 4px;
+    }
+}

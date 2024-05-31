@@ -1,0 +1,146 @@
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000; /* Ensure the menu is on top of other content */
+  }
+  .head {
+    background-color: rgb(8, 29, 12);
+    padding-top: 14px;
+    display: grid;
+    grid-template-columns:15% 85% ;
+    grid-template-areas: "LOGO_title head_title";
+  }
+  .head .LOGO_title{
+    grid-area: LOGO_title;
+  }
+  .head .head_title{
+    grid-area: head_title;
+  }
+  .menu-container.open {
+    transform: translateY(0);
+  }
+  
+  .tabaloLogo{
+    height: 50px;
+    width:50px ;
+    border-radius: 50%;
+  
+  }
+  
+  .menu-icon {
+    width: 30px;
+    height: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+ 
+
+
+.navigation_bar {
+    margin-left: 0px;
+    width: 190px;
+}
+
+.head_title{
+    color: white;
+    font-size: 35px;
+  
+}
+
+
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 480px) {
+    .X_menu{
+     margin-top: 43px;
+      display: grid;
+      grid-template-columns: 200px 80px;
+      grid-template-rows: auto;
+      grid-template-areas: "close-icon close-icon"
+                           "phoneNavigation phoneNavigation";
+     }
+     .X_menu .close-icon{
+      grid-area:close-icon ;
+     padding-left: 220px;
+     color: white;
+     background-color: rgb(13, 13, 34);
+     }
+     .X_menu .phoneNavigation{
+      grid-area: phoneNavigation;
+      background-color: rgb(13, 13, 34);
+     
+     }
+     .close-icon {
+         font-size: 20px;
+         padding-top: 12px;
+         font-weight: bold;
+         width: 80px;
+         cursor: pointer;
+       }
+     .phoneNavigation{
+       width: 300PX;
+       padding-top: 40px;
+       height: 100vh;
+       z-index: 1000;
+      
+     }
+     .head_title{
+      font-size: 17PX;
+     
+     }
+  
+  
+    
+    
+    
+ 
+    .head{
+    grid-area: head;
+    padding-top: 13px;
+    height: 85px;
+    grid-area: head;
+    display: grid;
+    grid-template-columns: 40px 390px;
+    grid-template-rows: auto;
+    grid-template-areas: "LOGO_title head_title"
+                          "menu-icon head_title";
+   }
+   .head .head_title{
+    grid-area: head_title;
+    padding-top: 16px;
+    margin-left: 15px;
+   
+  }
+  .head .menu-icon{
+      grid-area: menu-icon;
+     color: white;
+   
+      
+    
+  }
+
+  .head .LOGO_title{
+    grid-area: LOGO_title;
+  
+  }
+  
+
+  
+  }
+
+
+
+
+
+
+
+
+
+

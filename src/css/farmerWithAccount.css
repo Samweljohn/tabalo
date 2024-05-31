@@ -1,0 +1,25 @@
+.placeToEnterCode{
+  
+    background-color:rgb(210, 205, 205);
+    height: 100vh;
+    padding-top: 90px;
+   
+}
+.codeBox{
+   padding: 44px;
+    margin-left: 250px;
+    height: 270px;
+    background-color: whitesmoke;
+    width: 320px;
+    border-radius: 9px;
+}
+.headofTable{
+    margin-bottom: 21px;
+    color: rgb(89, 89, 213);
+    font-size: 20px;
+    font-weight: bold;
+}
+.codeInputDescr , .codeInputfield    , .buttonForCode {
+    font-size: 19px;
+    margin: 12px;
+} 

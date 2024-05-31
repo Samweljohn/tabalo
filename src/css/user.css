@@ -1,0 +1,138 @@
+.success-animation {
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    height: 100%;
+    padding-left: 23px;
+    font-size: 23;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    animation: fadeOut 5s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.successfull{
+    background-color: green;
+}
+.unsuccessfull{
+    background-color: rgb(151, 43, 23);
+}
+
+
+.userDetail{
+    scroll-behavior: smooth;
+    padding-left: 30px;
+    margin-top: 25px;
+    background-color:rgb(210, 205, 205);
+
+ height: 100vh;
+ overflow: auto;
+    padding-top: 30px;
+ 
+}
+.showAlert {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+  .hideAlert {
+    display: none;
+  }
+ .topuser{
+    margin-top: 35px;
+    color: white;
+    font-size: 23px;
+    background-color: rgb(16, 108, 107);
+  height: 100px;
+
+}
+.buttonYes{
+    margin-right: 9px;
+}
+
+.resertForm{
+    scroll-behavior: smooth;
+    background-color:rgb(210, 205, 205);  
+    height: 100vh;
+    padding-top: 54px;
+}
+.lowUser{
+    height: 80px;
+    background-color: whitesmoke;
+    margin-top: 8px;
+}
+.magel{
+    height: 70px;
+    width: 70px;
+}
+.mainTable{
+width: 1300px;
+
+}
+td{
+    padding-left: 8px;
+}
+.EdityUserInfo , .passwordFormat{
+    padding-top: 23px;
+    margin-top: 53px;
+    padding-left: 12px;
+    background-color: white;
+    width: 350px;
+    margin-left: 24px;
+    border-radius: 9px;
+    padding-bottom: 20px;
+    border: 2px solid #cccccc;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+
+}
+.EdityUserInfo{
+    margin-bottom: 100px;
+
+}
+.userInfo , .headerForPasswordResert{
+    color: rgb(89, 89, 213);
+    font-size: 22px; 
+    margin-bottom: 23px;
+}
+.edityInput{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 11px;
+}
+
+.resertForm{
+    padding-left: 250px;
+    padding-bottom: 100px;
+}
+.buttonForEdity{
+   background-color: rgb(51, 47, 47); 
+   color: white;
+   font-size: 20px;
+   padding: 5px;
+   
+
+}
+.userName_edity{
+    color: rgb(16, 108, 107);
+    font-size: 18px; 
+    margin-bottom: 9px;
+}

@@ -1,0 +1,28 @@
+.viewContact{
+    display: flex;
+    justify-content: space-around;
+}
+.contactSpecialTerm{
+    width: 350px;
+    height: 250px;
+    border-radius: 6px;
+    background-color:rgb(210, 205, 205);
+    padding-left: 23px;
+    font-size: 20;
+    font-weight: bold;
+    color: rgb(89, 89, 213);;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+
+}
+.contactMain{
+    height: 100hv;
+    width: 90vw;
+    overflow: hidden;
+    background-color: rgb(56, 55, 55);
+   
+}
+

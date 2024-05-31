@@ -1,0 +1,134 @@
+.userProfile{
+    padding-top: 33px;
+    background-color:rgb(210, 205, 205);
+    width: 100vw;
+    height: 100vh;
+}
+.Email{
+    color: rgb(16, 108, 107);
+}
+.Email_position{
+margin-top: 20px;
+font-size: 22px;
+    display: flex;
+}
+
+.TopPartOfUserProfile{
+    background-color: white;
+    height: 200px;
+    width: 900px;
+    border-radius: 12px;
+    border: 2px solid #cccccc;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+    margin-left: 13%;
+    margin-top: 23px;
+    display: flex;
+}
+.impotantInfoForUser{
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+.ImageOfUser{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 23px;
+    margin-top: 40px;
+   
+}
+.userName{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.profilePicture{
+    height: 100%;
+    width: 100%;
+}
+.LowPartOfUserProfile{
+    background-color: white;
+    height: 400px;
+    width: 900px;
+    border-radius: 12px;
+    border: 2px solid #cccccc;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+    margin-left: 13%;
+    margin-top: 12px;
+   padding-left: 13px;
+   padding-top: 12px;
+   
+}
+.headerSecondPART{
+    font-size: 23px;
+    font-weight: bold;
+}
+.secondPartUserData{
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+.firstItermInLowProfile{
+    color: rgb(16, 108, 107);
+}
+@media only screen and (max-width: 480px) {
+    .userProfile{
+        height:100vh;
+        width: 100vw;
+        overflow: hidden;
+
+    }
+    .TopPartOfUserProfile{
+        background-color: white;
+      
+        width: 100vw;
+        border-radius: 12px;
+        border: 2px solid #cccccc;
+        box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 23px;
+       overflow: hidden;
+        flex-direction: row;
+    }
+    .ImageOfUser{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-left: 2px;
+        margin-top: 40px;
+       
+    }
+    .impotantInfoForUser{
+        margin-top: 50px;
+        margin-left:2px;
+
+    }
+    .Email_position{
+        margin-top: 20px;
+        font-size: 22px;
+         display: block;
+              
+            
+        }
+        .LowPartOfUserProfile{
+            background-color: white;
+      
+          
+            border-radius: 12px;
+            border: 2px solid #cccccc;
+            box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+            margin-left: 3px;
+            margin-top: 12px;
+           padding-left: 3px;
+           padding-top: 12px;
+           
+        }
+        .secondPartUserData{
+           margin-top: 19px;
+          margin-right: 2px;
+          display: block;
+          
+        }
+
+}
