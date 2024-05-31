@@ -6,16 +6,16 @@ export default defineConfig({
   plugins: [react()],   
   server:{
     proxy:{    
-      "/login.php":{target:"http://localhost/TABARO/login.php "},
-      "/region.php":{target:"http://localhost/TABARO/locationIniationData.php" },
-     "/location.php":{target:"http://localhost/TABARO/location.php"},
-     "/user.php":{target:"http://localhost/TABARO/user.php"},
-     "/regster.php":{target:"http://localhost/TABARO/registerFarmer.php"},
-     "/regsterAnimal.php":{target:"http://localhost/TABARO/regsterAnimal.php"},
-     "/useManagement.php":{target:"http://localhost/TABARO/useManagement.php"}, 
-     "/anaysis.php":{target:"http://localhost/TABARO/anaysis.php"},
-    "/tokenValidation":{target:"http://localhost/TABARO/expireToken.php"},
-    "/animal":{target:"http://localhost/TABARO/animal.owner.php"},
+      "/login.php":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/login.php "},
+      "/region.php":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/locationIniationData.php" },
+     "/location.php":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/location.php"},
+     "/user.php":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/user.php"},
+     "/regster.php":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/registerFarmer.php"},
+     "/regsterAnimal.php":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/regsterAnimal.php"},
+     "/useManagement.php":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackendO/useManagement.php"}, 
+     "/anaysis.php":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/anaysis.php"},
+    "/tokenValidation":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/expireToken.php"},
+    "/animal":{target:"https://github.com/Samweljohn/tabalo/tree/tabaloBackend/animal.owner.php"},
     "/fieldofficer.php":{target:"http://localhost/TABARO/fieldofficer.php"},
     "/insertFarmData.php":{target:"http://localhost/TABARO/insertFarmData.php"}
     }
